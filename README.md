@@ -1,6 +1,6 @@
 <head>
     <!-- Place your kit's code here -->
-    <script src="https://kit.fontawesome.com/065993555e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://kit.fontawesome.com/065993555e.js" crossorigin="anonymous"></link>
   </head>
 
 <i class="fas fa-play-circle"></i>
