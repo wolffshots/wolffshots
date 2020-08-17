@@ -1,6 +1,13 @@
+<script src="https://kit.fontawesome.com/065993555e.js" crossorigin="anonymous"></script>
+
+
+<i class="fas fa-play-circle"></i>
+
+
 ### 👋
 
-- LinkedIn: https://www.linkedin.com/in/jadon-wolffs/
+- [LinkedIn](https://www.linkedin.com/in/jadon-wolffs/)
+- [Instagram](https://www.instagram.com/wolffshots)
 <!--
 **jadonwolffs/jadonwolffs** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 -->
