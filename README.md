@@ -2,10 +2,12 @@
     <!-- Place your kit's code here -->
     <link rel="stylesheet" href="https://kit.fontawesome.com/065993555e.js" crossorigin="anonymous"></link>
   </head>
+
 <body>
-<i class="fas fa-play-circle"></i>
-<i class="fab fa-500px"></i>
+    <i class="fas fa-play-circle">test</i>
+    <i class="fab fa-500px"></i>
 </body>
+
 ### 👋
 
 - [LinkedIn](https://www.linkedin.com/in/jadon-wolffs/)
