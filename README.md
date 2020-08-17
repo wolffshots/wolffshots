@@ -1,25 +1,59 @@
-<head>
-   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-  </head>
-<body>
-    <i class="fas fa-play-circle">test</i>
-    <i class="fab fa-500px"></i>
-</body>
+# Jadon Wolffs
 
-<i class="fas fa-play-circle"></i>
-<i class="fab fa-500px"></i>
+## Professional Summary
 
-### 👋
+1 year experience in the programming world after a 3 year BSc in Computer Science and Computer Engineering.
 
+## Skills
 
+- Java: studied Java in high school and in university and am quite proficient
+- C: have some experience in programming in C for the STM32F0 microcontroller and as a result am competent in simple C
+- C++: did a course at 3rd year university level in C++ and some machine learning
+- JavaScript: spent a year working in a mixture of vanilla JS, React and React Native and am very comfortably profiicient in JavaScript
+- Python: competent in Python3 (with decent experience in using it on embedded systems)
 
+## Work Experience
 
+### Programmer at Next Step Digital (February 2020 - Present)
+
+- mainly working in React and React Native for the frontend
+- various aspects of Firebase for backends
+
+### Server and network administrator (January 2020 - Present)
+
+- built and setup a Linux server
+- maintained a Mikrotik network with custom firewall settings and 3 access points
+
+## Education
+
+### BSc in Computer Science and Computer Engineering (2017 - 2019)
+
+- University of Cape Town
+- specialisations include software engineering and embedded systems with some project management and machine learning
+
+## Projects
+
+### Proper Living
+
+- Fully custom website for a property development project aimed at students
+- Part of the main development team and assisted with bug resolution
+- Written in Gatsby with a backend in Node.js
+- Link: [properliving.co.za](https://properliving.co.za/)
+
+### Head2Head
+
+- Lead developer
+- Written in React Native with the backend in Node.js
+- Links:
+  - on the Apple [App Store](https://apps.apple.com/us/app/Head2Head/id1527745287)
+  - on the Google [Play Store](https://play.google.com/store/apps/details?id=com.nextstepdigital.head2head)
+
+## Links
 
 - [:link: LinkedIn](https://www.linkedin.com/in/jadon-wolffs/)
 - [:camera: Instagram](https://www.instagram.com/wolffshots)
-<!--
-**jadonwolffs/jadonwolffs** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
--->
+
+## Stats
 
 [![Jadon's GitHub stats](https://github-readme-stats.vercel.app/api?username=jadonwolffs&count_private=true&show_icons=true)](https://github.com/jadonwolffs)
 
