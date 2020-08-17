@@ -6,7 +6,9 @@
     <i class="fas fa-play-circle">test</i>
     <i class="fab fa-500px"></i>
 </body>
-    <i class="fab fa-500px"></i>
+
+<i class="fas fa-play-circle"></i>
+<i class="fab fa-500px"></i>
 
 ### 👋
 
