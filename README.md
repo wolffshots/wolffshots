@@ -6,10 +6,10 @@
 
 ## Skills
 
-- Java: studied Java in high school and in university and - quite proficient
+- Java: studied Java in high school and in university - quite proficient
 - C: have some experience in programming in C for the STM32F0 microcontroller - competent in simple C
 - C++: did a course at 3rd year university level in C++ and some machine learning - quite proficient
-- JavaScript: spent a year working in a mixture of vanilla JS, React and React Native - very comfortably profiicient in JavaScript
+- JavaScript: spent a year working in a mixture of vanilla JS, React and React Native - very comfortably proficient in JavaScript
 - Python: competent in Python3 (with decent experience in using it on embedded systems)
 
 ## Work Experience
