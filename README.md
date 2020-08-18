@@ -6,10 +6,10 @@
 
 ## Skills
 
-- Java: studied Java in high school and in university and am quite proficient
-- C: have some experience in programming in C for the STM32F0 microcontroller and as a result am competent in simple C
-- C++: did a course at 3rd year university level in C++ and some machine learning
-- JavaScript: spent a year working in a mixture of vanilla JS, React and React Native and am very comfortably profiicient in JavaScript
+- Java: studied Java in high school and in university and - quite proficient
+- C: have some experience in programming in C for the STM32F0 microcontroller - competent in simple C
+- C++: did a course at 3rd year university level in C++ and some machine learning - quite proficient
+- JavaScript: spent a year working in a mixture of vanilla JS, React and React Native - very comfortably profiicient in JavaScript
 - Python: competent in Python3 (with decent experience in using it on embedded systems)
 
 ## Work Experience
@@ -19,7 +19,7 @@
 - mainly working in React and React Native for the frontend
 - various aspects of Firebase for backends
 
-### Server and network administrator (January 2020 - Present)
+### Server and network administrator at Mills Fitchett Cape (January 2020 - Present)
 
 - built and setup a Linux server
 - maintained a Mikrotik network with custom firewall settings and 3 access points
