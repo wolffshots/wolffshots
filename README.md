@@ -11,6 +11,7 @@
 - C++: did a course at 3rd year university level in C++ and some machine learning - quite proficient
 - JavaScript: spent a year working in a mixture of vanilla JS, React and React Native - very comfortably proficient in JavaScript
 - Python: competent in Python3 (with decent experience in using it on embedded systems)
+- HTML and CSS: very competent in both HTML and CSS and quite confident in CSS derivations (like Sass)
 
 ## Work Experience
 
