@@ -52,6 +52,9 @@
 ## Links
 
 - [<img align="left" alt="Jadon | LinkedIn" width="30x" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" /> LinkedIn](https://www.linkedin.com/in/jadon-wolffs/)
+
+  
+
 - [<img align="left" alt="Jadon | Instagram" width="30x" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" /> Instagram](https://www.instagram.com/wolffshots)
 
 ## Stats
