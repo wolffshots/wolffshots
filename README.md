@@ -19,6 +19,7 @@
 
 - mainly working in React and React Native for the frontend
 - various aspects of Firebase for backends
+- the projects under Next Step Digital are listed in the [Projects](#projects) section below
 
 ### Server and network administrator at Mills Fitchett Cape (January 2020 - Present)
 
@@ -32,23 +33,45 @@
 - University of Cape Town
 - specialisations include software engineering and embedded systems with some project management and machine learning
 
+### NSC
+
+- Herzlia High School 2016
+- Attended AP Maths and AP English
+
 ## Projects
 
 ### Proper Living
+A modern, student oriented property development
 
 - Fully custom website for a property development project aimed at students
 - Part of the main development team and assisted with bug resolution
 - Written in Gatsby with a backend in Node.js
 - Link: [properliving.co.za](https://properliving.co.za/)
+- Also built the companion mobile app in TypeScript and React Native with a Firebase Cloud Function serverless backend
+
+### Coach Elite
+
+A better solution for fitness coaches to deliver workouts to their clients
+
+- Core development team
+- Written in React Native with the backend in Node.js
+- Web app written in React
+- Links:
+
+  - on the Apple [App Store - coming soon]()
+  - on the Google [Play Store](https://play.google.com/store/apps/details?id=com.coachelite.coachelite)
+  - [Coach Portal](https://coachelite.co.za/)
 
 ### Head2Head
+
+A way of tracking friendly leagues and matches to get stats for the games that go unnoticed
 
 - Lead developer
 - Written in React Native with the backend in Node.js
 - Links:
+
   - on the Apple [App Store](https://apps.apple.com/us/app/Head2Head/id1527745287)
   - on the Google [Play Store](https://play.google.com/store/apps/details?id=com.nextstepdigital.head2head)
-
 ## Links
 
 - [<img align="left" alt="Jadon | LinkedIn" width="30x" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" /> LinkedIn](https://www.linkedin.com/in/jadon-wolffs/)
