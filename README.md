@@ -58,7 +58,7 @@ A better solution for fitness coaches to deliver workouts to their clients
 - Web app written in React
 - Links:
 
-  - on the Apple [App Store - coming soon]()
+  - on the Apple [App Store](https://apps.apple.com/gb/app/coachelite/id1512634037)
   - on the Google [Play Store](https://play.google.com/store/apps/details?id=com.coachelite.coachelite)
   - [Coach Portal](https://coachelite.co.za/)
 
