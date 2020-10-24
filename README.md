@@ -1,7 +1,5 @@
 # Jadon Wolffs
 
-<iframe src="https://discord.com/widget?id=221521674225319938&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-
 ## Professional Summary
 
 1 year experience in the programming world after a 3 year BSc in Computer Science and Computer Engineering.
