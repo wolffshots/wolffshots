@@ -85,3 +85,8 @@ A way of tracking friendly leagues and matches to get stats for the games that g
 [![Jadon's GitHub stats](https://github-readme-stats.vercel.app/api?username=jadonwolffs&count_private=true&show_icons=true)](https://github.com/jadonwolffs)
 
 [![Jadon's top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=jadonwolffs)](https://github.com/jadonwolffs)
+
+# Photography
+
+I do some hobby photography and if you're here about that please message me on any of my socials or my email
+The rights to my photos are reserved unless you explicitly get my consent or are one of the subjects of the image in question
