@@ -82,7 +82,7 @@ A way of tracking friendly leagues and matches to get stats for the games that g
 
 ## Stats
 
-[![Jadon's GitHub stats](https://github-readme-stats.vercel.app/api?username=jadonwolffs&count_private=true&show_icons=true)](https://github.com/jadonwolffs)
+<p align="center"><a href="https://github.com/jadonwolffs"><img src="https://github-readme-stats.vercel.app/api?username=jadonwolffs&count_private=true&show_icons=true" alt="Jadon's GitHub stats" data-canonical-src="https://github-readme-stats.vercel.app/api?username=jadonwolffs&amp;count_private=true&amp;show_icons=true" style="max-width:100%;"></a></p>
 
 [![Jadon's top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=jadonwolffs)](https://github.com/jadonwolffs)
 
