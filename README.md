@@ -1,5 +1,3 @@
-# Jadon Wolffs
-
 ## Professional Summary
 
 1 year experience in the programming world after a 3 year BSc in Computer Science and Computer Engineering.
