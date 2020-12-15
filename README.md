@@ -72,23 +72,21 @@ A way of tracking friendly leagues and matches to get stats for the games that g
   - on the Google [Play Store](https://play.google.com/store/apps/details?id=com.nextstepdigital.head2head)
 ## Links
 
-- [<img align="left" alt="Jadon | LinkedIn" width="30x" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" /> LinkedIn](https://www.linkedin.com/in/jadon-wolffs/)
+<!-- - [<img align="left" alt="wolffshots | LinkedIn" width="30x" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" /> LinkedIn](https://www.linkedin.com/in/jadon-wolffs/) -->
 
-  
-
-- [<img align="left" alt="Jadon | Instagram" width="30x" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" /> Instagram](https://www.instagram.com/wolffshots)
+- [<img align="left" alt="wolffshots | Instagram" width="30x" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" /> Instagram](https://www.instagram.com/wolffshots)
 
 ## Stats
 
 <p align="center">
-  <a href="https://github.com/jadonwolffs">
-    <img src="https://github-readme-stats.vercel.app/api?username=jadonwolffs&count_private=true&show_icons=true" alt="Jadon's GitHub stats" data-canonical-src="https://github-readme-stats.vercel.app/api?username=jadonwolffs&amp;count_private=true&amp;show_icons=true" style="max-width:100%;">
+  <a href="https://github.com/wolffshots">
+    <img src="https://github-readme-stats.vercel.app/api?username=wolffshots&count_private=true&show_icons=true" alt="wolffshots' GitHub stats" data-canonical-src="https://github-readme-stats.vercel.app/api?username=wolffshots&amp;count_private=true&amp;show_icons=true" style="max-width:100%;">
   </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/jadonwolffs">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jadonwolffs" alt="Jadon's top languages" data-canonical-src="https://github-readme-stats.vercel.app/api/top-langs/?username=jadonwolffs" style="max-width:100%;">
+  <a href="https://github.com/wolffshots">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=wolffshots" alt="wolffshots' top languages" data-canonical-src="https://github-readme-stats.vercel.app/api/top-langs/?username=wolffshots" style="max-width:100%;">
   </a>
 </p>
 
