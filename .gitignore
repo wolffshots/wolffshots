@@ -1,0 +1,21 @@
+# gitignore.io created react ignores with some customisation by wolff
+node_modules
+yarn.lock
+# public
+build
+
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+bower_components
+
+*.sublime*
+
+psd
+thumb
+sketch
+
+.vscode
