@@ -1,4 +1,5 @@
 import React from "react";
+import Breadcrumbs from "../Breadcrumbs/Breadcrumbs";
 import Navigation from "../Navigation/Navigation";
 import ThemeToggle from "../ThemeToggle/ThemeToggle";
 
@@ -9,6 +10,7 @@ const Layout = (props: Props) => {
   return (
     <div>
       <ThemeToggle />
+      <Breadcrumbs />
       <Navigation />
       {props.children}
     </div>
