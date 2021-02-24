@@ -1,5 +1,11 @@
+import Layout from "../../../components/Layout/Layout";
 const Encoder = () => {
-  return <div>flesh out encoder app here</div>;
+  return (
+    <Layout>
+      <p>about</p>
+      <div>flesh out encoder app here</div>
+    </Layout>
+  );
 };
 
 export default Encoder;
