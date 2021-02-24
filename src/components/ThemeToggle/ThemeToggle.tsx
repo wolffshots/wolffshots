@@ -13,7 +13,7 @@ const ThemeToggle = () => {
     }
   };
   return (
-    <button onClick={clickHandler} className={"absolute top-0 right-0 m-5 dark:right-100 text-xs"}>
+    <button onClick={clickHandler} className={"absolute top-0 right-0 m-5 dark:right-100 text-s"}>
       switch theme
     </button>
   );
