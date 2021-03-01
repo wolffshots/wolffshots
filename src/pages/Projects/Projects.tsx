@@ -8,6 +8,9 @@ const Projects = () => {
       <Link to="projects/encoder" className="m-2">
         film encoder
       </Link>
+      <Link to="projects/photography" className="m-2">
+        photography
+      </Link>
     </Layout>
   );
 };

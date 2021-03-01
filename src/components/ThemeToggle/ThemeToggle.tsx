@@ -1,5 +1,7 @@
-// import React from "react";
-
+/**
+ * a button to manage the state of and do the toggling for dark mode. adds the dark class to the root html and stores the user preference in localstorage.
+ * @author wolffshots
+ */
 const ThemeToggle = () => {
   const clickHandler = () => {
     if (localStorage.theme === "dark" || !("theme" in localStorage)) {
@@ -13,8 +15,8 @@ const ThemeToggle = () => {
     }
   };
   return (
-    <button onClick={clickHandler} className={"absolute top-0 right-0 m-5 dark:right-100 text-base"}>
-      switch theme
+    <button onClick={clickHandler} className={"text-base"}>
+      toggle darkmode
     </button>
   );
 };
