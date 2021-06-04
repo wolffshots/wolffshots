@@ -1,8 +1,8 @@
-## professional summary
+## Professional summary
 
 Began  experience in the programming world after a 3 year BSc in Computer Science and Computer Engineering.
 
-## skills
+## Skills
 
 - JavaScript: spent a year working in a mixture of vanilla JS, node.js, React (React, Preact and Gatsby) and React Native (Expo) - very comfortably proficient in JavaScript
 - Java: studied Java in high school and in university - quite proficient
@@ -11,7 +11,7 @@ Began  experience in the programming world after a 3 year BSc in Computer Scienc
 - Python: competent in Python3 (with decent experience in using it on embedded systems such as Raspberry Pi and some MicroPython tinkering)
 - HTML and CSS: very competent in both HTML and CSS and quite confident in CSS derivations (like Sass)
 
-## work Experience
+## Work experience
 
 ### Programmer at Next Step Digital (February 2020 - March 2021)
 
@@ -24,7 +24,7 @@ Began  experience in the programming world after a 3 year BSc in Computer Scienc
 - built and setup a Linux server with DNS filter for the local network
 - maintained a Mikrotik network with custom firewall settings and 3 access points
 
-## education
+## Education
 
 ### BSc in Computer Science and Computer Engineering (2017 - 2019)
 
@@ -36,7 +36,7 @@ Began  experience in the programming world after a 3 year BSc in Computer Scienc
 - Herzlia High School 2016
 - Attended AP Maths and AP English
 
-## projects
+## Projects
 
 ### Next Step Digital
 #### Proper Living
@@ -72,11 +72,11 @@ A way of tracking friendly leagues and matches to get stats for the games that g
   - on the Apple [App Store](https://apps.apple.com/us/app/Head2Head/id1527745287)
   - on the Google [Play Store](https://play.google.com/store/apps/details?id=com.nextstepdigital.head2head)
 
-### passion projects
+### Passion projects
 
-#### temp controlled relay/Warm Water
+#### Warm Water/temp controlled relay
 
-An embedded systems solution to take the temperature of a water bath regularly and turn a relay on and off 
+An embedded systems solution to take the temperature of a water bath regularly and turn a relay on and off. The main application I started working on this project for was to be able to develop colour photographic film at a set temperature (the C-41 process I use is done at 38°C) which I successfully did a few times with the initial Arduino implementation before starting to rewrite it in esp-idf (partially to learn the framework and partially to improve on some bugs and on the things I learnt whilst doing the first project)
 
 - initial implementation (kinda deprecated) [temp controlled relay](https://github.com/wolffshots/temp_controlled_relay)
 - esp-idf implementation [esp32-warm-water](https://github.com/wolffshots/esp32-warm-water.git)
@@ -90,13 +90,11 @@ An embedded systems solution to take the temperature of a water bath regularly a
   - [esp32-webserver](https://github.com/wolffshots/esp32-webserver) library to create a webserver which specifically pertains to the warm water project
   - [esp32-wifi](https://github.com/wolffshots/esp32-wifi) wrapper library to setup wifi (either as station or softap)
 
-## links
-
-<!-- - [<img align="left" alt="wolffshots | LinkedIn" width="30x" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" /> LinkedIn](https://www.linkedin.com/in/jadon-wolffs/) -->
+## Links
 
 - [instagram](https://www.instagram.com/wolffshots)
 
-## stats
+## Stats
 
 <p align="center">
   <a href="https://github.com/wolffshots">
@@ -110,7 +108,7 @@ An embedded systems solution to take the temperature of a water bath regularly a
   </a>
 </p>
 
-# photography
+# Photography
 
 I do some hobby photography and if you're here about that please message me on any of my socials or my email
 The rights to my photos are reserved unless you explicitly get my consent or are one of the subjects of the image in question
