@@ -1,6 +1,6 @@
 ## Professional summary
 
-Began  experience in the programming world after a 3 year BSc in Computer Science and Computer Engineering.
+1.5 years experience in web/app/iot development after a 3 year BSc in Computer Science and Computer Engineering at UCT.
 
 ## Skills
 
@@ -38,6 +38,24 @@ Began  experience in the programming world after a 3 year BSc in Computer Scienc
 
 ## Projects
 
+### Passion projects
+
+#### Warm Water/temp controlled relay
+
+An embedded systems solution to take the temperature of a water bath regularly and turn a relay on and off. The main application I started working on this project for was to be able to develop colour photographic film at a set temperature (the C-41 process I use is done at 38°C) which I successfully did a few times with the initial Arduino implementation before starting to rewrite it in esp-idf (partially to learn the framework and partially to improve on some bugs and on the things I learnt whilst doing the first project)
+
+- initial implementation (kinda deprecated) [temp controlled relay](https://github.com/wolffshots/temp_controlled_relay)
+- esp-idf implementation [esp32-warm-water](https://github.com/wolffshots/esp32-warm-water.git)
+  - [esp32-ds18b20](https://github.com/wolffshots/esp32-ds18b20) library to interface with ds18b20 temperature probe (forked from [DavidAntliff](https://github.com/DavidAntliff/esp32-ds18b20))
+  - [esp32-gpio](https://github.com/wolffshots/esp32-gpio) simple wrapper library to setup gpio pins
+  - [esp32-owb](https://github.com/wolffshots/esp32-owb) onewire bus library for use with the ds18b20 sensor (forked from [DavidAntliff](https://github.com/DavidAntliff/esp32-owb))
+  - [esp32-spiffs](https://github.com/wolffshots/esp32-spiffs) library to setup and interface with spiffs file system
+  - [esp32-ssd1306](https://github.com/wolffshots/esp32-ssd1306) library to setup and interface with a ssd1306 driven oled over either spi or i2c (forked from [nopnop2002](https://github.com/nopnop2002/esp-idf-ssd1306) with some heavy mods)
+  - [esp32-timer](https://github.com/wolffshots/esp32-timer) library to setup high resolution timers (to perform some action either periodically or once)
+  - [esp32-utility](https://github.com/wolffshots/esp32-utility) very simple library to package some common utilities that don't have another home
+  - [esp32-webserver](https://github.com/wolffshots/esp32-webserver) library to create a webserver which specifically pertains to the warm water project
+  - [esp32-wifi](https://github.com/wolffshots/esp32-wifi) wrapper library to setup wifi (either as station or softap)
+
 ### Next Step Digital
 #### Proper Living
 A modern, student oriented property development
@@ -71,24 +89,6 @@ A way of tracking friendly leagues and matches to get stats for the games that g
 
   - on the Apple [App Store](https://apps.apple.com/us/app/Head2Head/id1527745287)
   - on the Google [Play Store](https://play.google.com/store/apps/details?id=com.nextstepdigital.head2head)
-
-### Passion projects
-
-#### Warm Water/temp controlled relay
-
-An embedded systems solution to take the temperature of a water bath regularly and turn a relay on and off. The main application I started working on this project for was to be able to develop colour photographic film at a set temperature (the C-41 process I use is done at 38°C) which I successfully did a few times with the initial Arduino implementation before starting to rewrite it in esp-idf (partially to learn the framework and partially to improve on some bugs and on the things I learnt whilst doing the first project)
-
-- initial implementation (kinda deprecated) [temp controlled relay](https://github.com/wolffshots/temp_controlled_relay)
-- esp-idf implementation [esp32-warm-water](https://github.com/wolffshots/esp32-warm-water.git)
-  - [esp32-ds18b20](https://github.com/wolffshots/esp32-ds18b20) library to interface with ds18b20 temperature probe (forked from [DavidAntliff](https://github.com/DavidAntliff/esp32-ds18b20))
-  - [esp32-gpio](https://github.com/wolffshots/esp32-gpio) simple wrapper library to setup gpio pins
-  - [esp32-owb](https://github.com/wolffshots/esp32-owb) onewire bus library for use with the ds18b20 sensor (forked from [DavidAntliff](https://github.com/DavidAntliff/esp32-owb))
-  - [esp32-spiffs](https://github.com/wolffshots/esp32-spiffs) library to setup and interface with spiffs file system
-  - [esp32-ssd1306](https://github.com/wolffshots/esp32-ssd1306) library to setup and interface with a ssd1306 driven oled over either spi or i2c (forked from [nopnop2002](https://github.com/nopnop2002/esp-idf-ssd1306) with some heavy mods)
-  - [esp32-timer](https://github.com/wolffshots/esp32-timer) library to setup high resolution timers (to perform some action either periodically or once)
-  - [esp32-utility](https://github.com/wolffshots/esp32-utility) very simple library to package some common utilities that don't have another home
-  - [esp32-webserver](https://github.com/wolffshots/esp32-webserver) library to create a webserver which specifically pertains to the warm water project
-  - [esp32-wifi](https://github.com/wolffshots/esp32-wifi) wrapper library to setup wifi (either as station or softap)
 
 ## Links
 
