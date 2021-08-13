@@ -1,3 +1,5 @@
+# wolffshots
+skip to [project](#Projects), [experience](#Experience), [education](#Education)
 ## Professional summary
 
 2 years experience in web/app/iot development after a 3 year BSc in Computer Science and Computer Engineering at UCT.
@@ -24,7 +26,7 @@
 - [Python/Django](https://www.udemy.com/certificate/UC-5OJ41TU1/)
 
 
-## Work experience
+## Experience
 
 ### Front End developer at [Dado](https://dadoagency.com/) (June 2021 - Present)
 
@@ -98,10 +100,7 @@ A way of tracking friendly leagues and matches to get stats for the games that g
 
 - Lead developer
 - Written in React Native with the backend in Node.js
-- Links:
-
-  - on the Apple [App Store](https://apps.apple.com/us/app/Head2Head/id1527745287)
-  - on the Google [Play Store](https://play.google.com/store/apps/details?id=com.nextstepdigital.head2head)
+- Links: [App Store](https://apps.apple.com/us/app/Head2Head/id1527745287) and [Play Store](https://play.google.com/store/apps/details?id=com.nextstepdigital.head2head)
 
 # Photography
 
