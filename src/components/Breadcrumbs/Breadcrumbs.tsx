@@ -11,20 +11,18 @@ const Breadcrumbs = () => {
       {window.location.pathname !== "/" ? (
         <div className="m-3">
           {" "}
-          {breadcrumbs.map(
-            (crumb): JSX.Element => {
-              current = current + "/" + crumb;
-              return (
-                <Link
-                  to={current.replace(`//`, `/`)}
-                  className="m-1"
-                  key={crumb + Math.random().toString()}
-                >
-                  {">"} {crumb !== `` ? crumb : `home`}
-                </Link>
-              );
-            }
-          )}
+          {breadcrumbs.map((crumb): JSX.Element => {
+            current = current + "/" + crumb;
+            return (
+              <Link
+                to={current.replace(`//`, `/`)}
+                className="m-1"
+                key={crumb + Math.random().toString()}
+              >
+                {">"} {crumb !== `` ? crumb : `home`}
+              </Link>
+            );
+          })}
         </div>
       ) : null}
       {/* split current location into parts and return links for each bit */}

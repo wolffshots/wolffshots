@@ -13,10 +13,10 @@ interface Props {
  */
 const Layout = (props: Props) => {
   return (
-    <div className="flex flex-col items-center dark:text-gray-100 text-gray-900">
-      <title>EasyIoT | {props.title ?? "Web-interface"}</title>
+    <div className="items-center dark:text-gray-100 text-gray-900">
+      <title>wolffshots | {props.title ?? "Web-interface"}</title>
       <Navigation />
-      <div className="w-full md:w-3/4 lg:w-1/2">{props.children}</div>
+      <div className="mx-auto w-full md:w-3/4 lg:w-1/2">{props.children}</div>
     </div>
   );
 };
