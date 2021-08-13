@@ -109,7 +109,7 @@ The rights to my photos are reserved unless you explicitly get my consent or are
 
 - Herzlia High School 2016
 - Attended AP Maths and AP English
-
+<!-- 
 ## Stats
 
 <p align="center">
@@ -123,3 +123,4 @@ The rights to my photos are reserved unless you explicitly get my consent or are
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=wolffshots" alt="wolffshots' top languages" data-canonical-src="https://github-readme-stats.vercel.app/api/top-langs/?username=wolffshots" style="max-width:100%;">
   </a>
 </p>
+ -->
