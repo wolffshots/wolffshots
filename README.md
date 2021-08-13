@@ -1,22 +1,28 @@
 ## Professional summary
 
-1.5 years experience in web/app/iot development after a 3 year BSc in Computer Science and Computer Engineering at UCT.
+2 years experience in web/app/iot development after a 3 year BSc in Computer Science and Computer Engineering at UCT.
 
 ## Skills
-
-- JavaScript: spent a year working in a mixture of vanilla JS, node.js, React (React, Preact and Gatsby) and React Native (Expo) - very comfortably proficient in JavaScript
-- Java: studied Java in high school and in university - quite proficient
-- C: quite competent in embedded C frameworks such as STM32, ESP32 (esp-idf and Arduino)
-- C++: did a course at 3rd year university level in C++ and some machine learning - quite proficient
-- Python: competent in Python3 (with decent experience in using it on embedded systems such as Raspberry Pi and some MicroPython tinkering)
-- HTML and CSS: very competent in both HTML and CSS and quite confident in CSS derivations (like Sass)
+### Languages
+- JavaScript
+- Java
+- C in embedded systems
+- C++
+- Python + MicroPython
+- HTML and CSS
+### Other
+- Linux server admin
+- Photography (analog and digital)
+- Film development (colour and black & white)
 
 ## Certification
 
+- [BSc Computer Engineering & Computer Science](undergrad.pdf)
 - [POPI Compliance](https://popicompliance.onramp.training//TrainingGuideQuestionUploads//c26101df-cf0e-4c7b-9cb0-c07c5cac7dd1/53483e1e-0929-4780-b100-c695b9454177dd4223fd-48bf-46ad-aab6-345f4e19636ef43b18c6-d075-40e3-a42d-e8a9d1ff05e7.pdf)
 - [Practical React Native](https://www.udemy.com/certificate/UC-c2062d4a-e303-4c2d-a23f-1bfd116d3a4e/)
 - [Complete React](https://www.udemy.com/certificate/UC-e35e325d-f30d-4e52-a25f-239a28af0d0a/)
 - [Python/Django](https://www.udemy.com/certificate/UC-5OJ41TU1/)
+
 
 ## Work experience
 
@@ -38,28 +44,21 @@
 - built and setup a Linux server with DNS filter for the local network
 - maintained a Mikrotik network with custom firewall settings and 3 access points
 
-## Education
-
-### BSc in Computer Science and Computer Engineering (2017 - 2019)
-
-- University of Cape Town
-- specialisations include software engineering and embedded systems with some project management and machine learning
-
-### NSC
-
-- Herzlia High School 2016
-- Attended AP Maths and AP English
-
 ## Projects
 
 ### Passion projects
 
-#### Warm Water/temp controlled relay
+#### [wolffmeter](https://github.com/wolffshots/wolffmeter)
+ESP32 powered lightmeter. A from scratch, open source, incident light meter with possibility for smart features.
+- Current WIP
+- Written in MicroPython with interrupts and power saving being the core programming goals
+
+#### [esp32-warm-water](https://github.com/wolffshots/esp32-warm-water)/[temp_controlled_relay](https://github.com/wolffshots/temp_controlled_relay)
 
 An embedded systems solution to take the temperature of a water bath regularly and turn a relay on and off. The main application I started working on this project for was to be able to develop colour photographic film at a set temperature (the C-41 process I use is done at 38°C) which I successfully did a few times with the initial Arduino implementation before starting to rewrite it in esp-idf (partially to learn the framework and partially to improve on some bugs and on the things I learnt whilst doing the first project)
 
 - initial implementation (kinda deprecated) [temp controlled relay](https://github.com/wolffshots/temp_controlled_relay)
-- esp-idf implementation [esp32-warm-water](https://github.com/wolffshots/esp32-warm-water.git)
+- esp-idf implementation [esp32-warm-water](https://github.com/wolffshots/esp32-warm-water)
   - [esp32-ds18b20](https://github.com/wolffshots/esp32-ds18b20) library to interface with ds18b20 temperature probe (forked from [DavidAntliff](https://github.com/DavidAntliff/esp32-ds18b20))
   - [esp32-gpio](https://github.com/wolffshots/esp32-gpio) simple wrapper library to setup gpio pins
   - [esp32-owb](https://github.com/wolffshots/esp32-owb) onewire bus library for use with the ds18b20 sensor (forked from [DavidAntliff](https://github.com/DavidAntliff/esp32-owb))
@@ -104,9 +103,26 @@ A way of tracking friendly leagues and matches to get stats for the games that g
   - on the Apple [App Store](https://apps.apple.com/us/app/Head2Head/id1527745287)
   - on the Google [Play Store](https://play.google.com/store/apps/details?id=com.nextstepdigital.head2head)
 
+# Photography
+
+I do some hobby photography and if you're here about that please message me on any of my socials or my email
+The rights to my photos are reserved unless you explicitly get my consent or are one of the subjects of the image in question
+
 ## Links
 
 - [instagram](https://www.instagram.com/wolffshots)
+
+## Education
+
+### BSc in Computer Science and Computer Engineering (2017 - 2019)
+
+- University of Cape Town
+- specialisations include software engineering and embedded systems with some project management and machine learning
+
+### NSC
+
+- Herzlia High School 2016
+- Attended AP Maths and AP English
 
 ## Stats
 
@@ -121,8 +137,3 @@ A way of tracking friendly leagues and matches to get stats for the games that g
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=wolffshots" alt="wolffshots' top languages" data-canonical-src="https://github-readme-stats.vercel.app/api/top-langs/?username=wolffshots" style="max-width:100%;">
   </a>
 </p>
-
-# Photography
-
-I do some hobby photography and if you're here about that please message me on any of my socials or my email
-The rights to my photos are reserved unless you explicitly get my consent or are one of the subjects of the image in question
