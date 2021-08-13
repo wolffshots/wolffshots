@@ -28,14 +28,14 @@ skip to [project](#Projects), [experience](#Experience), [education](#Education)
 
 ## Experience
 
-### Front End developer at [Dado](https://dadoagency.com/) (June 2021 - Present)
+### Front end developer at [Dado](https://dadoagency.com/) (June 2021 - Present)
 
 - working with custom APIs
 - Next.js
 - Storybooks
 - Gatsby
 
-### Programmer at Next Step Digital (February 2020 - March 2021)
+### Developer at Next Step Digital (February 2020 - March 2021)
 
 - mainly working in React (Gatsby) and React Native
 - various aspects of Firebase for backends
