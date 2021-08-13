@@ -71,35 +71,20 @@ An embedded systems solution to take the temperature of a water bath regularly a
   - [esp32-webserver](https://github.com/wolffshots/esp32-webserver) library to create a webserver which specifically pertains to the warm water project
   - [esp32-wifi](https://github.com/wolffshots/esp32-wifi) wrapper library to setup wifi (either as station or softap)
 
+### [Dado](https://dadoagency.com/) Agency
+#### [Petlab](https://thepetlabco.com/)
+#### [Petlab Customer Account Portal](https://account.petlab.com)
+
 ### Next Step Digital
-#### Proper Living
-A modern, student oriented property development
-
-- Fully custom website for a property development project aimed at students
-- Part of the main development team and assisted with bug resolution
-- Written in Gatsby with a backend in Node.js
-- Link: [properliving.co.za](https://properliving.co.za/)
-- Also built the companion mobile app in TypeScript and React Native with a Firebase Cloud Function serverless backend
-
-#### Coach Elite
-
+#### [Proper Living](https://properliving.co.za/)
+A modern, student oriented property development. 
+Written in Gatsby, Firebase Cloud functions and Node.js. 
+Companion mobile app written in TypeScript and React Native with a Firebase Cloud Function serverless backend
+#### [Coach Elite](https://coachelite.co.za/)
 A better solution for fitness coaches to deliver workouts to their clients
-
-- Core development team
-- Written in React Native with the backend in Node.js
-- Web app written in React
-- Links:
-
-  - on the Apple [App Store](https://apps.apple.com/gb/app/coachelite/id1512634037)
-  - on the Google [Play Store](https://play.google.com/store/apps/details?id=com.coachelite.coachelite)
-  - [Coach Portal](https://coachelite.co.za/)
-
+Links: [App Store](https://apps.apple.com/gb/app/coachelite/id1512634037), [Play Store](https://play.google.com/store/apps/details?id=com.coachelite.coachelite) and [Coach Portal](https://coachelite.co.za/)
 #### Head2Head
-
 A way of tracking friendly leagues and matches to get stats for the games that go unnoticed
-
-- Lead developer
-- Written in React Native with the backend in Node.js
 - Links: [App Store](https://apps.apple.com/us/app/Head2Head/id1527745287) and [Play Store](https://play.google.com/store/apps/details?id=com.nextstepdigital.head2head)
 
 # Photography
