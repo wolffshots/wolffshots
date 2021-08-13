@@ -73,7 +73,9 @@ An embedded systems solution to take the temperature of a water bath regularly a
 
 ### [Dado](https://dadoagency.com/) Agency
 #### [Petlab](https://thepetlabco.com/)
+Providers of everything from pet vitamin supplements to grooming products
 #### [Petlab Customer Account Portal](https://account.petlab.com)
+Portal for managing orders, subscriptions and pets on Petlab
 
 ### Next Step Digital
 #### [Proper Living](https://properliving.co.za/)
