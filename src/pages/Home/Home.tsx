@@ -7,7 +7,6 @@ const About = () => {
         className={`text-center min-h-1/2 flex flex-col justify-around ${
           window.location.pathname !== "/" ? "pt-2" : "pt-14"
         }`}
-        style={{}}
       >
         <p>
           This serves as my portfolio site which pulls data from my GitHub
