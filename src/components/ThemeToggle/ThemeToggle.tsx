@@ -24,7 +24,7 @@ const ThemeToggle = () => {
   //   },
   //   springConfig: { mass: 4, tension: 250, friction: 35 }
   // };
-  
+
   const clickHandler = () => {
     if (localStorage.theme === "dark" || !("theme" in localStorage)) {
       // Whenever the user explicitly chooses light mode
@@ -42,7 +42,7 @@ const ThemeToggle = () => {
   // const { r, transform, cx, cy, opacity } = properties[
   //   isDarkMode ? "dark" : "light"
   // ];
-  
+
   // const svgContainerProps = useSpring({
   //   transform,
   //   config: properties.springConfig
@@ -56,7 +56,7 @@ const ThemeToggle = () => {
   // const linesProps = useSpring({ opacity, config: properties.springConfig })
   return (
     <p onClick={clickHandler}>dark/light</p>
-/* <animated.svg
+    /* <animated.svg
       xmlns="http://www.w3.org/2000/svg"
       width="24"
       height="24"

@@ -26,10 +26,9 @@ export const dataSlice = createSlice({
     },
     setReadme: (state, action: PayloadAction<string>) => {
       let { payload } = action;
-      payload = payload.replace(
-        "skip to [project](#Projects), [experience](#Experience), [education](#Education)",
-        ""
-      );
+      payload = payload
+        .replace("PROJECTS.md", "projects")
+        .replace("EXPERIENCE.md", "experience");
       state.readme = payload;
     },
   },
