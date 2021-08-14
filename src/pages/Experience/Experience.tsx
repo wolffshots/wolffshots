@@ -3,19 +3,19 @@ import Layout from "../../components/Layout/Layout";
 import { useAppSelector } from "../../hooks";
 import gfm from "remark-gfm";
 
-const Projects = () => {
+const Experience = () => {
   const data = useAppSelector((state) => state.data);
   return (
     <Layout>
       {data.loading ? (
-        data.projects
+        data.experience
       ) : (
         <div className="prose dark:prose-dark">
-          <ReactMarkdown children={data.projects} remarkPlugins={[gfm]} />
+          <ReactMarkdown children={data.experience} remarkPlugins={[gfm]} />
         </div>
       )}
     </Layout>
   );
 };
 
-export default Projects;
+export default Experience;

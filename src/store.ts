@@ -3,12 +3,16 @@ import { configureStore, createSlice, PayloadAction } from "@reduxjs/toolkit";
 // Define a type for the slice state
 interface DataState {
   readme: string;
+  experience: string;
+  projects: string;
   loading: boolean;
 }
 
 // Define the initial state using that type
 const initialState: DataState = {
   readme: "",
+  experience: "",
+  projects: "",
   loading: false,
 };
 
@@ -31,10 +35,26 @@ export const dataSlice = createSlice({
         .replace("EXPERIENCE.md", "experience");
       state.readme = payload;
     },
+    setProjects: (state, action: PayloadAction<string>) => {
+      let { payload } = action;
+      payload = payload.replace(" ", " ");
+      state.projects = payload;
+    },
+    setExperience: (state, action: PayloadAction<string>) => {
+      let { payload } = action;
+      payload = payload.replace(" ", " ");
+      state.experience = payload;
+    },
   },
 });
 
-export const { startLoading, stopLoading, setReadme } = dataSlice.actions;
+export const {
+  startLoading,
+  stopLoading,
+  setReadme,
+  setExperience,
+  setProjects,
+} = dataSlice.actions;
 
 const store = configureStore({ reducer: { data: dataSlice.reducer } });
 // Infer the `RootState` and `AppDispatch` types from the store itself

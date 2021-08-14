@@ -1,7 +1,7 @@
 import { ReactElement, useEffect } from "react";
 import { useAppDispatch } from "./hooks";
 import Routes from "./pages/Routes";
-import { setReadme, startLoading, stopLoading } from "./store";
+import { setExperience, setProjects, setReadme, startLoading, stopLoading } from "./store";
 import "./styles/tailwind.css";
 
 const App = (): ReactElement => {
@@ -9,12 +9,23 @@ const App = (): ReactElement => {
   useEffect(() => {
     console.log(`fetching readme`);
     dispatch(startLoading());
-    fetch(
-      `https://raw.githubusercontent.com/wolffshots/wolffshots/main/README.md`
-    )
-      .then(async (res) => dispatch(setReadme(await res.text())))
-      .catch((err) => console.error(err))
-      .finally(() => dispatch(stopLoading()));
+    Promise.all([
+      fetch(
+        `https://raw.githubusercontent.com/wolffshots/wolffshots/main/README.md`
+      )
+        .then(async (res) => dispatch(setReadme(await res.text())))
+        .catch((err) => console.error(err)),
+      fetch(
+        `https://raw.githubusercontent.com/wolffshots/wolffshots/main/EXPERIENCE.md`
+      )
+        .then(async (res) => dispatch(setExperience(await res.text())))
+        .catch((err) => console.error(err)),
+      fetch(
+        `https://raw.githubusercontent.com/wolffshots/wolffshots/main/PROJECTS.md`
+      )
+        .then(async (res) => dispatch(setProjects(await res.text())))
+        .catch((err) => console.error(err)),
+    ]).finally(() => dispatch(stopLoading()));
   }, [dispatch]);
   useEffect(() => {
     if (

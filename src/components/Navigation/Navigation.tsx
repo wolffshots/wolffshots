@@ -49,6 +49,7 @@ const Navigation = () => {
             <NavigationItem name={`Home`} />
             <NavigationItem route={`/about`} name={`About`} />
             <NavigationItem route={`/projects`} name={`Projects`} />
+            <NavigationItem route={`/experience`} name={`Experience`} />
           </div>
           <div className="flex flex-col md:flex-row">
             <NavigationItem route={`/app`} name={`app/login`} />
