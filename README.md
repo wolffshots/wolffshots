@@ -27,7 +27,7 @@ skip to [projects](/Projects), [experience](#Experience), [education](#Education
 
 ## Projects
 
-See [projects](/projects)
+See [projects](/PROJECT.md)
 
 ## Experience
 
