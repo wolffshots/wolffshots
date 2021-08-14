@@ -1,7 +1,13 @@
 import { ReactElement, useEffect } from "react";
 import { useAppDispatch } from "./hooks";
 import Routes from "./pages/Routes";
-import { setExperience, setProjects, setReadme, startLoading, stopLoading } from "./store";
+import {
+  setExperience,
+  setProjects,
+  setReadme,
+  startLoading,
+  stopLoading,
+} from "./store";
 import "./styles/tailwind.css";
 
 const App = (): ReactElement => {
@@ -40,9 +46,9 @@ const App = (): ReactElement => {
   }, []);
   return (
     <div className="font-sans">
-      <header className="bg-white dark:bg-gray-800 min-h-screen">
+      <main className="bg-white dark:bg-gray-800 min-h-screen">
         <Routes />
-      </header>
+      </main>
     </div>
   );
 };

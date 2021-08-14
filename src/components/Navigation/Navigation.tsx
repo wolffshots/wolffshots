@@ -13,9 +13,7 @@ const Navigation = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState<Boolean>(false);
   return (
     <div
-      className={`dark:bg-gray-100 dark:text-blue-900 w-full shadow-md bg-gray-800 text-blue-200 text-lg ${
-        window.location.pathname !== "/" ? "mb-2" : "mb-14"
-      }`}
+      className={`dark:bg-gray-100 dark:text-blue-900 w-full shadow-md bg-gray-800 text-blue-200 text-lg`}
     >
       <header className="flex flex-wrap flex-row justify-between md:items-center md:space-x-4 md:py-2 py-6 px-6 relative">
         <NavigationItem name="wolffshots">

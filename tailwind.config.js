@@ -1,6 +1,6 @@
 module.exports = {
   purge: {
-    enabled: true,
+    enabled: false,
     content: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
     options: {
       safelist: ["dark"], //specific classes
@@ -8,6 +8,13 @@ module.exports = {
   },
   darkMode: "class",
   theme: {
+    minHeight: {
+      0: "0",
+      "1/2": "50vh",
+      "3/4": "75vh",
+      full: "100%",
+      screen: "100vh",
+    },
     // typography: (theme) => ({}),
     extend: {
       typography: (theme) => ({
