@@ -1,5 +1,5 @@
 # wolffshots
-skip to [projects](/Projects), [experience](#Experience), [education](#Education)
+skip to [projects](/PROJECTS.md), [experience](#Experience), [education](#Education)
 ## Professional summary
 
 2 years experience in web/app/iot development after a 3 year BSc in Computer Science and Computer Engineering at UCT.
@@ -27,7 +27,7 @@ skip to [projects](/Projects), [experience](#Experience), [education](#Education
 
 ## Projects
 
-See [projects](/PROJECT.md)
+See [projects](/PROJECTS.md)
 
 ## Experience
 
