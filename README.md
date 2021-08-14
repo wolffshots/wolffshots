@@ -109,18 +109,3 @@ The rights to my photos are reserved unless you explicitly get my consent or are
 
 - Herzlia High School 2016
 - Attended AP Maths and AP English
-<!-- 
-## Stats
-
-<p align="center">
-  <a href="https://github.com/wolffshots">
-    <img src="https://github-readme-stats.vercel.app/api?username=wolffshots&count_private=true&show_icons=true" alt="wolffshots' GitHub stats" data-canonical-src="https://github-readme-stats.vercel.app/api?username=wolffshots&amp;count_private=true&amp;show_icons=true" style="max-width:100%;">
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/wolffshots">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=wolffshots" alt="wolffshots' top languages" data-canonical-src="https://github-readme-stats.vercel.app/api/top-langs/?username=wolffshots" style="max-width:100%;">
-  </a>
-</p>
- -->
