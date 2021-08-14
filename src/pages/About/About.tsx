@@ -10,7 +10,7 @@ const About = () => {
       {data.loading ? (
         data.readme
       ) : (
-        <div className="prose">
+        <div className="prose dark:prose-dark">
           <ReactMarkdown children={data.readme} remarkPlugins={[gfm]} />
         </div>
       )}

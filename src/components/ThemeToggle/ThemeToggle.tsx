@@ -1,6 +1,6 @@
 // import { useState } from "react";
 // import {animated, useSpring} from "react-spring";
-
+// https://dev.to/joserfelix/using-react-spring-to-animate-svg-icons-dark-mode-toggle-2c86
 /**
  * a button to manage the state of and do the toggling for dark mode. adds the dark class to the root html and stores the user preference in localstorage.
  * @author wolffshots

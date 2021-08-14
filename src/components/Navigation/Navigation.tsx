@@ -18,8 +18,7 @@ const Navigation = () => {
       }`}
     >
       <header className="flex flex-wrap flex-row justify-between md:items-center md:space-x-4 md:py-2 py-6 px-6 relative">
-        <NavigationItem name="EasyIoT">
-          {/* <span className="sr-only">EasyIoT</span> */}
+        <NavigationItem name="wolffshots">
           <img className="h-6 md:h-8 mx-3" src={Logo} alt="Logo" title="Logo" />
         </NavigationItem>
         <button
