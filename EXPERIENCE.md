@@ -1,5 +1,5 @@
 # Experience
-## Front end developer at [Dado](https://dadoagency.com/) (June 2021 - Present)
+## Front end developer at [Dado](www.dado.team) (June 2021 - Present)
 
 - working with custom APIs
 - Next.js
