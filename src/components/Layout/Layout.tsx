@@ -1,5 +1,7 @@
 import React from "react";
 import Navigation from "../Navigation/Navigation";
+import { fetchExperience, fetchProjects, fetchReadme } from "../../api";
+import { useQueryClient } from "react-query";
 
 interface Props {
   children: React.ReactNode;
@@ -12,6 +14,10 @@ interface Props {
  * @author wolffshots
  */
 const Layout = (props: Props) => {
+  const queryClient = useQueryClient();
+  queryClient.prefetchQuery("readme", () => fetchReadme());
+  queryClient.prefetchQuery("experience", () => fetchExperience());
+  queryClient.prefetchQuery("projects", () => fetchProjects());
   return (
     <div className="items-center dark:text-gray-100 text-gray-900">
       <title>wolffshots | {props.title ?? "Web-interface"}</title>

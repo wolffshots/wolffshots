@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Breadcrumbs from "../Breadcrumbs/Breadcrumbs";
 import NavigationItem from "./NavigationItem";
-import Logo from "../../logo.svg";
+// import Logo from "../../logo.svg";
 import ThemeToggle from "../ThemeToggle/ThemeToggle";
 
 /**
@@ -17,7 +17,6 @@ const Navigation = () => {
     >
       <header className="flex flex-wrap flex-row justify-between md:items-center md:space-x-4 md:py-2 py-6 px-6 relative">
         <NavigationItem name="wolffshots">
-          <img className="h-6 md:h-8 mx-3" src={Logo} alt="Logo" title="Logo" />
         </NavigationItem>
         <button
           className="inline-block md:hidden w-8 h-8 bg-gray-200 text-gray-600 p-1"

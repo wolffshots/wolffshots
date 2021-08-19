@@ -16,13 +16,17 @@ interface Props {
  */
 const NavigationItem = (props: Props) => {
   const activeStyle =
-    props.activeStyle ?? "underline dark:text-blue-700 text-blue-300";
+    props.activeStyle ?? "underline dark:text-blue-800 text-blue-300";
+
   return (
     <Link
       to={props.route ?? `/`}
       className={`m-2 flex hover:underline ${
         window.location.pathname.split(`/`)?.[1] ===
-        props.route?.replace("/", "")
+          props.route?.replace("/", "") ||
+        (window.location.pathname === "/" &&
+          props.route === undefined &&
+          props.name !== "wolffshots")
           ? activeStyle
           : ""
       }`}

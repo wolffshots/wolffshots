@@ -3,14 +3,7 @@ import Routes from "./pages/Routes";
 
 import "./styles/tailwind.css";
 
-import { fetchExperience, fetchProjects, fetchReadme } from "./api";
-import { useQueryClient } from "react-query";
-
 const App = (): ReactElement => {
-  const queryClient = useQueryClient();
-  queryClient.prefetchQuery("readme", () => fetchReadme());
-  queryClient.prefetchQuery("experience", () => fetchExperience());
-  queryClient.prefetchQuery("projects", () => fetchProjects());
   useEffect(() => {
     if (
       localStorage.theme === "dark" ||

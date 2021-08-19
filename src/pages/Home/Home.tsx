@@ -20,7 +20,7 @@ const About = () => {
         <ul className="grid gap-4 grid-cols-1">
           <li>
             <a
-              className="dark:text-blue-300 text-green-500"
+              className="dark:text-blue-300 text-indigo-700 hover:underline"
               href="https://www.github.com/wolffshots"
               target="_blank"
               rel="noopener noreferrer"
@@ -30,7 +30,7 @@ const About = () => {
           </li>
           <li>
             <a
-              className="dark:text-blue-300 text-green-500"
+              className="dark:text-blue-300 text-indigo-700 hover:underline"
               href="www.linkedin.com/in/wolffshots"
               target="_blank"
               rel="noopener noreferrer"
