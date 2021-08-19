@@ -21,7 +21,10 @@ const ThemeToggle = () => {
   };
 
   return (
-    <div onClick={clickHandler} className="flex justify-center items-center">
+    <div
+      onClick={clickHandler}
+      className="flex justify-center items-center cursor-pointer"
+    >
       {/* icons from FontAwesome with license: https://fontawesome.com/license */}
       <div className="w-10 h-10 md:w-5 md:h-5">
         {darkMode ? (
