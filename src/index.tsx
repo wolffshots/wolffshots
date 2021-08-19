@@ -4,15 +4,16 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
+import { QueryClient, QueryClientProvider } from "react-query";
 
-import store from "./store";
-import { Provider } from "react-redux";
-
+// import store from "./store";
+// import { Provider } from "react-redux";
+const queryClient = new QueryClient();
 ReactDOM.render(
   <React.StrictMode>
-    <Provider store={store}>
+    <QueryClientProvider client={queryClient}>
       <App />
-    </Provider>
+    </QueryClientProvider>
   </React.StrictMode>,
   document.getElementById("root")
 );

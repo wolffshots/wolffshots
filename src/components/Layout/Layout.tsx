@@ -16,9 +16,7 @@ const Layout = (props: Props) => {
     <div className="items-center dark:text-gray-100 text-gray-900">
       <title>wolffshots | {props.title ?? "Web-interface"}</title>
       <Navigation />
-      <div className="mx-4 md:mx-auto md:w-3/4 lg:w-1/2 pb-4">
-        {props.children}
-      </div>
+      <div className="flex justify-center p-6">{props.children}</div>
     </div>
   );
 };

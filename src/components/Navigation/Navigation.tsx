@@ -50,8 +50,9 @@ const Navigation = () => {
             <NavigationItem route={`/experience`} name={`Experience`} />
           </div>
           <div className="flex flex-col md:flex-row">
-            <NavigationItem route={`/app`} name={`app/login`} />
-            <NavigationItem route={`/contact`} name={`Contact`} />
+            <div className="m-2 flex hover:underline">
+              <a href={`mailto:wolffshots@pm.me`}>Contact</a>
+            </div>
           </div>
         </nav>
       </header>

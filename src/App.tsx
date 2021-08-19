@@ -1,38 +1,16 @@
 import { ReactElement, useEffect } from "react";
-import { useAppDispatch } from "./hooks";
 import Routes from "./pages/Routes";
-import {
-  setExperience,
-  setProjects,
-  setReadme,
-  startLoading,
-  stopLoading,
-} from "./store";
+
 import "./styles/tailwind.css";
 
+import { fetchExperience, fetchProjects, fetchReadme } from "./api";
+import { useQueryClient } from "react-query";
+
 const App = (): ReactElement => {
-  const dispatch = useAppDispatch();
-  useEffect(() => {
-    console.log(`fetching readme`);
-    dispatch(startLoading());
-    Promise.all([
-      fetch(
-        `https://raw.githubusercontent.com/wolffshots/wolffshots/main/README.md`
-      )
-        .then(async (res) => dispatch(setReadme(await res.text())))
-        .catch((err) => console.error(err)),
-      fetch(
-        `https://raw.githubusercontent.com/wolffshots/wolffshots/main/EXPERIENCE.md`
-      )
-        .then(async (res) => dispatch(setExperience(await res.text())))
-        .catch((err) => console.error(err)),
-      fetch(
-        `https://raw.githubusercontent.com/wolffshots/wolffshots/main/PROJECTS.md`
-      )
-        .then(async (res) => dispatch(setProjects(await res.text())))
-        .catch((err) => console.error(err)),
-    ]).finally(() => dispatch(stopLoading()));
-  }, [dispatch]);
+  const queryClient = useQueryClient();
+  queryClient.prefetchQuery("readme", () => fetchReadme());
+  queryClient.prefetchQuery("experience", () => fetchExperience());
+  queryClient.prefetchQuery("projects", () => fetchProjects());
   useEffect(() => {
     if (
       localStorage.theme === "dark" ||

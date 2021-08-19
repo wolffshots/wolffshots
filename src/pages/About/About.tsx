@@ -1,18 +1,21 @@
 import ReactMarkdown from "react-markdown";
 import Layout from "../../components/Layout/Layout";
 import gfm from "remark-gfm";
-import { useAppSelector } from "../../hooks";
+import { useQuery } from "react-query";
+import { fetchReadme } from "../../api";
 
 const About = () => {
-  const data = useAppSelector((state) => state.data);
+  const readme = useQuery("readme", () => fetchReadme());
   return (
     <Layout>
-      {data.loading ? (
-        data.readme
+      {readme.isLoading ? (
+        <p>loading...</p>
       ) : (
-        <div className="prose dark:prose-dark">
-          <ReactMarkdown children={data.readme} remarkPlugins={[gfm]} />
-        </div>
+        readme.data && (
+          <div className="prose dark:prose-dark">
+            <ReactMarkdown children={readme.data} remarkPlugins={[gfm]} />
+          </div>
+        )
       )}
     </Layout>
   );

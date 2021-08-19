@@ -1,18 +1,21 @@
 import ReactMarkdown from "react-markdown";
 import Layout from "../../components/Layout/Layout";
-import { useAppSelector } from "../../hooks";
 import gfm from "remark-gfm";
+import { fetchExperience } from "../../api";
+import { useQuery } from "react-query";
 
 const Experience = () => {
-  const data = useAppSelector((state) => state.data);
+  const experience = useQuery("experience", () => fetchExperience());
   return (
     <Layout>
-      {data.loading ? (
-        data.experience
+      {experience.isLoading ? (
+        <p>loading...</p>
       ) : (
-        <div className="prose dark:prose-dark">
-          <ReactMarkdown children={data.experience} remarkPlugins={[gfm]} />
-        </div>
+        experience.data && (
+          <div className="prose dark:prose-dark">
+            <ReactMarkdown children={experience.data} remarkPlugins={[gfm]} />
+          </div>
+        )
       )}
     </Layout>
   );

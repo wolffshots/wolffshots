@@ -4,13 +4,18 @@ const About = () => {
   return (
     <Layout>
       <div
-        className={`text-center min-h-1/2 flex flex-col justify-around ${
+        className={`text-center min-h-3/4 flex flex-col justify-around items-center ${
           window.location.pathname !== "/" ? "pt-2" : "pt-14"
         }`}
       >
+        <h1 style={{ fontWeight: 800, fontSize: "2.25em" }}>wolffshots</h1>
         <p>
-          This serves as my portfolio site which pulls data from my GitHub
-          profile
+          This serves as my portfolio site <br />
+          which pulls data from my GitHub profile
+        </p>
+        <p>
+          Check my links below or <br />
+          my details from the pages above
         </p>
         <ul className="grid gap-4 grid-cols-1">
           <li>
