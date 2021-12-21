@@ -1,8 +1,5 @@
 # wolffshots
 skip to [projects](/PROJECTS.md), [experience](/EXPERIENCE.md), [education](#Education)
-## Professional summary
-
-2 years experience in web/app/iot development after a 3 year BSc in Computer Science and Computer Engineering at UCT.
 
 ## Skills
 ### Languages
@@ -24,14 +21,6 @@ skip to [projects](/PROJECTS.md), [experience](/EXPERIENCE.md), [education](#Edu
 - [Practical React Native](https://www.udemy.com/certificate/UC-c2062d4a-e303-4c2d-a23f-1bfd116d3a4e/)
 - [Complete React](https://www.udemy.com/certificate/UC-e35e325d-f30d-4e52-a25f-239a28af0d0a/)
 - [Python/Django](https://www.udemy.com/certificate/UC-5OJ41TU1/)
-
-## Projects
-
-See [projects](/PROJECTS.md)
-
-## Experience
-
-See [experience](/EXPERIENCE.md)
 
 ## Photography
 
