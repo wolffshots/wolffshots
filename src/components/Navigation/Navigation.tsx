@@ -47,6 +47,7 @@ const Navigation = () => {
             <NavigationItem route={`/about`} name={`About`} />
             <NavigationItem route={`/projects`} name={`Projects`} />
             <NavigationItem route={`/experience`} name={`Experience`} />
+            <NavigationItem route={`/Education`} name={`Education`} />
           </div>
           <div className="flex flex-col md:flex-row">
             <div className="m-2 flex hover:underline">
