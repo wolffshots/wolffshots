@@ -51,7 +51,7 @@ const Navigation = () => {
           </div>
           <div className="flex flex-col md:flex-row">
             <div className="m-2 flex hover:underline">
-              <a href={`mailto:wolffshots@pm.me`}>Contact</a>
+              <a href={`mailto:jadon@duck.com`}>Contact</a>
             </div>
           </div>
         </nav>
