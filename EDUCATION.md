@@ -17,3 +17,4 @@
 - [Practical React Native](https://www.udemy.com/certificate/UC-c2062d4a-e303-4c2d-a23f-1bfd116d3a4e/)
 - [Complete React](https://www.udemy.com/certificate/UC-e35e325d-f30d-4e52-a25f-239a28af0d0a/)
 - [Python/Django](https://www.udemy.com/certificate/UC-5OJ41TU1/)
+- [Introduction to DDD, CQRS and Event Sourcing](https://academy.axoniq.io/certificate/60ba48152a466b1de7683e89/user/61aba860cdee645fa15d83e1)
