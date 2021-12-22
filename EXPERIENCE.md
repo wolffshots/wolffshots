@@ -1,5 +1,12 @@
 # Experience
-## Front end developer at [Dado](www.dado.team) (June 2021 - Present)
+
+## Fullstack Developer at [Yoco](yoco.com) (December 2021 - present)
+
+- Kotlin
+- Axon
+- React Native
+
+## Front end developer at [Dado](www.dado.team) (June 2021 - November 2021)
 
 - working with custom APIs
 - Next.js
