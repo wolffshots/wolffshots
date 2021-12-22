@@ -1,5 +1,5 @@
 # wolffshots
-skip to [projects](/PROJECTS.md), [experience](/EXPERIENCE.md), [education](/EXPERIENCE.md)
+skip to [projects](/PROJECTS.md), [experience](/EXPERIENCE.md), [education](/EDUCATION.md)
 
 ## Skills
 ### Languages
