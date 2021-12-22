@@ -1,6 +1,6 @@
 # Experience
 
-## Fullstack Engineer at [Yoco](yoco.com) (December 2021 - present)
+## Fullstack Engineer at [Yoco](www.yoco.com) (December 2021 - present)
 
 - Kotlin
 - Axon
