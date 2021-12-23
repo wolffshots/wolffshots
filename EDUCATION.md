@@ -18,3 +18,4 @@
 - [Complete React](https://www.udemy.com/certificate/UC-e35e325d-f30d-4e52-a25f-239a28af0d0a/)
 - [Python/Django](https://www.udemy.com/certificate/UC-5OJ41TU1/)
 - [Introduction to DDD, CQRS and Event Sourcing](https://academy.axoniq.io/certificate/60ba48152a466b1de7683e89/user/61aba860cdee645fa15d83e1)
+- [Implementing DDD, CQRS and Event Sourcing with Axon](https://academy.axoniq.io/certificate/607048d9332e38356c0a3e66/user/61aba860cdee645fa15d83e1)
