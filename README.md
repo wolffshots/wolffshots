@@ -1,18 +1,13 @@
 # wolffshots
-skip to [projects](/PROJECTS.md), [experience](/EXPERIENCE.md), [education](/EDUCATION.md)
+
+[![GitHub Trends SVG](https://api.githubtrends.io/user/svg/wolffshots/langs?time_range=one_year&include_private=True&group=private&loc_metric=changed&theme=dark)](https://githubtrends.io) [![GitHub Trends SVG](https://api.githubtrends.io/user/svg/wolffshots/repos?time_range=one_year&include_private=True&group=private&theme=dark)](https://githubtrends.io)
 
 ## Skills
+- Go
+- Kotlin
 - JavaScript
 - Java
 - C/C++
 - Python/MicroPython
 - Photography (analog and digital)
 - Film development (colour and black & white)
-
-## Photography
-
-I do some hobby photography and if you're here about that please message me on any of my socials or my email
-
-The rights to my photos are reserved unless you explicitly get my consent or are one of the subjects of the image in question
-
-- [instagram](https://www.instagram.com/wolffshots)
